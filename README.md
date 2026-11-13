@@ -21,7 +21,7 @@ Guides you through setting up ntfy so your agent can get your attention on your 
 
 ### [agent-research-digest](https://github.com/arjver/agent-research-digest)
 
-**Your agent keeps you up to date on what you care about.**
+**Your agent keeps you up to date on what you care about, without fluff or repeated info.**
 
 Maturity: **Refined** · Lifecycle: **Active**
 
@@ -29,7 +29,7 @@ A blueprint for recurring, sourced research digests around your interests. Cover
 
 ### [auto-architect-skills](https://github.com/arjver/auto-architect-skills)
 
-**Your agent plans big code changes and coordinates the work.**
+**Your agent plans software work (collaboratively) and coordinates implementation + verification (autonomously).**
 
 Maturity: **Varies by skill — refactor: Refined** · Lifecycle: **Active**
 
