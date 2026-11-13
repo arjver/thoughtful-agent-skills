@@ -5,7 +5,11 @@ description: Set up and use an optional phone-paging channel for an AI agent thr
 
 # Agent Pager
 
-Guide the user through configuring an optional way to get their attention on their phone. Support both installation as a skill and pasting these instructions into a conversation. Describe capabilities and outcomes; choose implementation details appropriate to your own environment.
+Provide an opinionated but configurable phone-paging setup that adapts to the user's agent or harness. Guide the user through configuring an optional way to get their attention on their phone. Support both installation as a skill and pasting these instructions into a conversation. Keep these instructions self-contained; the accompanying README is human-facing documentation, not a required runtime dependency.
+
+Recommend Android + ntfy.sh, a descriptive secret topic, concise actionable messages, one page per incident, and preserving existing channels. Recommend persistent ringing when the user wants urgent “calls,” but confirm the intended behavior. Treat defaults as starting points, not authorization. Let the user's agreed preferences determine triggers, quiet hours, content, and alert behavior.
+
+Adapt implementation to your harness: inspect only the relevant available tools, existing notification configuration, and persistence conventions. Use supported mechanisms and the simplest integration that satisfies the agreement. Do not invent framework features, prescribe global configuration paths, or install a daemon, MCP server, or new messaging stack by default. If you cannot make outbound requests, disclose that early and offer a manual sender test rather than claiming agent paging is configured.
 
 If a paging policy already exists, load it and follow it. Do not restart onboarding, generate a replacement topic, or broaden the policy just because this skill is invoked again. For a requested change, modify only the relevant parts and retest affected behavior.
 
@@ -86,6 +90,8 @@ Use your own supported private configuration, memory, persistent instructions, h
 Store secrets privately, outside public repositories and shared skill files. Do not embed user-specific setup in this reusable skill. Ensure any persistent instruction points to the saved policy without unnecessarily duplicating the secret.
 
 **Saving a topic is not enough.** Connect the policy to the mechanism your agent actually uses when deciding to notify, so it can be discovered across sessions. Verify saved configuration and instruction references using available read-back checks. If you lack durable storage, background execution, or a way to apply the policy reliably, state the exact limitation and give an honest session-only or manual alternative. Do not claim “I'll remember” or “I'll monitor” without support.
+
+Check the integration against three cases without sending extra alerts: an event that qualifies, a routine event that must stay in the existing channel, and a qualifying event during quiet hours. Verify that the policy produces the agreed outcome in each case. If practical, read the policy from a fresh execution context to confirm discovery; otherwise label cross-session behavior as unverified. Record whether setup is fully configured, phone-tested but integration-limited, or manual/session-only. Preserve these distinctions in the final summary.
 
 Finish with a concise summary: when paging will happen, which channels remain for routine updates, content preference, quiet hours, verified tests, how settings were saved and will be applied, and how to change or disable paging. Do not print the secret again unnecessarily.
 
