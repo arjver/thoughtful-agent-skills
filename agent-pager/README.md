@@ -8,7 +8,25 @@ The baseline is **Android + [ntfy.sh](https://ntfy.sh)**, with persistent ringin
 
 ## Quick start
 
-### Paste it into your agent
+### Give your agent this prompt
+
+Copy and paste:
+
+```text
+Open https://github.com/arjver/ai-agent-skills/blob/main/agent-pager/SKILL.md,
+read the complete agent-pager skill, and use it to help me get set up.
+Guide me through the setup interactively, confirm my preferences, and
+adapt it to your tools and harness. Preserve my existing notification
+channels and save the agreed paging policy using your supported
+persistent configuration. If you cannot access the file, ask me to
+paste its contents.
+```
+
+You can add what you already know you want, such as: “I use Android and only want persistent ringing for very urgent things. Keep routine updates in Telegram.” The agent should read the instructions and begin the guided setup.
+
+The agent needs access to the repository to fetch the link. If it is private, use an authorized GitHub connection or the paste-in fallback below; do not share access tokens in the prompt.
+
+### Or paste the full skill
 
 1. Open [SKILL.md](SKILL.md), select **Raw**, and copy the entire file into your agent's conversation. The metadata at the top can stay.
 2. Tell it what you want, for example: “Help me set this up. I use Android and want persistent ringing only for very urgent things. Keep routine updates in Telegram.”
