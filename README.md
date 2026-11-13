@@ -1,6 +1,6 @@
 # AI agent skills & prompts
 
-Reusable skills, prompts, and workflow blueprints for your AI agent. Small ones live here; larger projects have their own repositories. Opinionated about useful behavior, configurable to your preferences, and designed to adapt to your agent or harness.
+Reusable skills, prompts, and workflow blueprints for your AI agent. Opinionated about useful behavior, configurable to your preferences, and designed to adapt to your agent or harness. Small ones live here; larger projects have their own repositories. Used in my day-to-day, continually refined as AI capabilities evolve.
 
 ## In this repo
 
