@@ -1,5 +1,7 @@
 # agent-pager
 
+Maturity: **New** · Lifecycle: **Active**
+
 **An opinionated but configurable phone pager that adapts to your agent or harness.**
 
 Give your agent a way to get your attention when it matters. Paste in the setup instructions or install them as a skill, and your agent walks you through choosing when to page, configuring your phone, testing the alerts, and saving the policy using its own supported mechanisms.
@@ -13,7 +15,7 @@ The baseline is **Android + [ntfy.sh](https://ntfy.sh)**, with persistent ringin
 Copy and paste:
 
 ```text
-Open https://github.com/arjver/ai-agent-skills/blob/main/agent-pager/SKILL.md,
+Open https://github.com/arjver/thoughtful-agent-skills/blob/main/agent-pager/SKILL.md,
 read the complete agent-pager skill, and use it to help me get set up.
 Guide me through the setup interactively, confirm my preferences, and
 adapt it to your tools and harness. Preserve my existing notification

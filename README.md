@@ -1,12 +1,18 @@
-# AI agent skills & prompts
+# Thoughtfully Designed Agent Skills & Workflows
 
-Reusable skills, prompts, and workflow blueprints for your AI agent. Opinionated about useful behavior, configurable to your preferences, and designed to adapt to your agent or harness. Small ones live here; larger projects have their own repositories. Used in my day-to-day, continually refined as AI capabilities evolve.
+Skills, prompts, and workflow blueprints I use and refine in practice. Small ones live here; larger projects have their own repositories.
+
+The goal is to do each job well with sound, proportionate design: use existing capabilities, avoid reinventing the wheel, and add only the structure the task needs. These workflows are opinionated but configurable, adapting to your agent, harness, and setup rather than fighting them.
+
+I continually reassess them as AI capabilities evolve, aiming for no more and no less than agents can reliably handle. That includes simplifying or removing scaffolding when it stops being useful. When a skill becomes redundant, I'll mark it as superseded and explain what I switched to.
 
 ## In this repo
 
 ### [agent-pager](agent-pager/)
 
 **Your agent “calls” you when something is urgent.**
+
+Maturity: **New** · Lifecycle: **Active**
 
 Guides you through setting up ntfy so your agent can get your attention on your phone, including persistent ringing on Android, only for situations you choose. Adapts to your existing notification channels and agent setup.
 
@@ -16,13 +22,25 @@ Guides you through setting up ntfy so your agent can get your attention on your 
 
 **Your agent keeps you up to date on what you care about.**
 
+Maturity: **Refined** · Lifecycle: **Active**
+
 A blueprint for recurring, sourced research digests around your interests. Covers topic discovery, source watchlists, duplicate-story handling, meaningful follow-ups, scheduling, and delivery using your agent's available capabilities.
 
 ### [auto-architect-skills](https://github.com/arjver/auto-architect-skills)
 
 **Your agent plans big code changes and coordinates the work.**
 
+Maturity: **Varies by skill — refactor: Refined** · Lifecycle: **Active**
+
 Skills for large refactors and migrations using an architect/executor workflow: collaborative planning, delegated implementation, verification, and handoffs. Includes an autonomous version and a version with manual handoffs for more direct control.
+
+## Status labels
+
+**Maturity:** New — recently introduced; Testing — being tested and refined; Refined — improved through repeated use.
+
+**Lifecycle:** Active — maintained and evolving; Maintenance only — limited updates; Superseded — replaced, with an explanation and a link to what I use instead.
+
+Labels reflect my experience, not a guarantee across every agent or setup.
 
 ## Getting started
 
