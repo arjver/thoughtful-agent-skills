@@ -1,21 +1,39 @@
 # AI agent skills & prompts
 
-My collection of small, reusable agent skills and prompts. Each item has its own folder, documentation, and instructions. Larger projects can live in separate repositories and be linked here.
+Reusable skills, prompts, and workflow blueprints for your AI agent. Small ones live here; larger projects have their own repositories. Opinionated about useful behavior, configurable to your preferences, and designed to adapt to your agent or harness.
 
-## In this repository
+## In this repo
 
-| Skill / prompt | Description |
-| --- | --- |
-| [agent-pager](agent-pager/) | An opinionated but configurable phone pager that adapts to your agent or harness. Guides ntfy setup and pages you only for situations you choose. |
+### [agent-pager](agent-pager/)
 
-## Using this collection
+**Your agent “calls” you when something is urgent.**
 
-Start with the item's README for setup, requirements, and limitations. Skills provide instructions; they do not grant tools, permissions, memory, or background execution that your agent lacks. Review instructions before using them, and keep personal configuration and credentials outside this repository.
+Guides you through setting up ntfy so your agent can get your attention on your phone, including persistent ringing on Android, only for situations you choose. Adapts to your existing notification channels and agent setup.
 
-## License & disclaimer
+## Larger projects
 
-Contents in this repository are licensed under [MIT](LICENSE), unless otherwise indicated. Separately linked projects have their own licenses and terms.
+### [agent-research-digest](https://github.com/arjver/agent-research-digest)
 
-**Use at your own risk.** These prompts, skills, examples, and instructions are provided **“AS IS” and “AS AVAILABLE,” without warranties of any kind**. You are responsible for reviewing them, protecting credentials and data, testing behavior, and deciding whether they are suitable for your use. AI agents can misunderstand instructions or act incorrectly; third-party software and services can change or fail. There is no guarantee of accuracy, reliability, security, compatibility, or continued availability.
+**Your agent keeps you up to date on what you care about.**
 
-To the maximum extent permitted by applicable law, the authors and contributors disclaim liability for claims, damages, losses, or other liability arising from use of, or inability to use, this project. See the [MIT license](LICENSE) for the full warranty and liability terms. Individual items may describe additional limitations. This collection is independent of the third-party services and agent platforms it references.
+A blueprint for recurring, sourced research digests around your interests. Covers topic discovery, source watchlists, duplicate-story handling, meaningful follow-ups, scheduling, and delivery using your agent's available capabilities.
+
+### [auto-architect-skills](https://github.com/arjver/auto-architect-skills)
+
+**Your agent plans big code changes and coordinates the work.**
+
+Skills for large refactors and migrations using an architect/executor workflow: collaborative planning, delegated implementation, verification, and handoffs. Includes an autonomous version and a version with manual handoffs for more direct control.
+
+## Getting started
+
+Open a project's README for its quick-start prompt, setup instructions, and requirements. For agents: read the linked skill or blueprint in full before using it; follow its setup flow and verify what your environment supports. These are instructions, not a hosted service or agent runtime.
+
+## License
+
+[MIT](LICENSE). Separately linked projects have their own licenses and terms.
+
+## Disclaimer
+
+**Use at your own risk.** These prompts, skills, examples, and instructions are provided **“AS IS” and “AS AVAILABLE,” without warranties of any kind**. You are responsible for reviewing them, protecting credentials and data, testing behavior, and deciding whether they are suitable for your use. AI agents can make mistakes, and third-party software and services can change or fail. Accuracy, reliability, security, compatibility, and continued availability are not guaranteed.
+
+To the maximum extent permitted by applicable law, the authors and contributors disclaim liability for claims, damages, losses, or other liability arising from use of, or inability to use, this project.

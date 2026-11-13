@@ -110,9 +110,17 @@ To stop paging, ask the agent to disable it and remove any paging-specific integ
 
 ## Limitations and disclaimer
 
-**Use at your own risk. Do not rely on this for emergencies, life-safety use, or as your only critical-alert channel.** Agents may make mistakes; notifications can be delayed, duplicated, missed, or disclosed. Server acceptance does not prove your phone received an alert or that you heard it. No delivery, timeliness, privacy, or reliability guarantee is provided.
+**Use at your own risk.** This skill, its examples, and its instructions are provided **“AS IS” and “AS AVAILABLE,” without warranties of any kind**. You are responsible for reviewing the instructions, configuring your agent and devices, protecting credentials and data, testing behavior, and deciding whether this is suitable for your use.
 
-This skill is covered by the repository's [general disclaimer](../README.md#license--disclaimer) and [MIT license](../LICENSE), including its warranty and liability limitations. It is independent of ntfy and any agent platform.
+AI agents may make mistakes; notifications can be delayed, duplicated, missed, or disclosed. Phone settings, networks, third-party services, and software changes can affect behavior. Server acceptance does not prove your phone received an alert or that you heard it. No delivery, timeliness, privacy, accuracy, compatibility, or reliability guarantee is provided.
+
+**Do not rely on this for emergencies, life-safety use, or as your only critical-alert channel.**
+
+To the maximum extent permitted by applicable law, the authors and contributors disclaim liability for claims, damages, losses, or other liability arising from use of, or inability to use, this skill.
+
+## License
+
+[MIT](../LICENSE).
 
 ## References
 
