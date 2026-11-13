@@ -1,10 +1,11 @@
 # Thoughtfully Designed Agent Skills & Workflows
 
-Skills, prompts, and workflow blueprints I use and refine in practice. Small ones live here; larger projects have their own repositories.
+Reusable skills, prompts, and workflow blueprints for your AI agent. Opinionated about useful behavior, configurable to your preferences, and designed to adapt to your agent or harness rather than fighting it. Small ones live here; larger projects have their own repositories. 
 
-The goal is to do each job well with sound, proportionate design: use existing capabilities, avoid reinventing the wheel, and add only the structure the task needs. These workflows are opinionated but configurable, adapting to your agent, harness, and setup rather than fighting them.
+The goal is to do each job well with sound, proportionate design: use existing capabilities, avoid reinventing the wheel, and add only the structure the task needs.
 
-I continually reassess them as AI capabilities evolve, aiming for no more and no less than agents can reliably handle. That includes simplifying or removing scaffolding when it stops being useful. When a skill becomes redundant, I'll mark it as superseded and explain what I switched to.
+I continually refine them as AI capabilities evolve, aiming for no more and no less than agents can reliably handle. That includes simplifying or removing structure when it stops being useful. When a skill becomes redundant, I'll mark it as superseded and explain what I replaced it with in my own workflows.
+
 
 ## In this repo
 
@@ -12,7 +13,7 @@ I continually reassess them as AI capabilities evolve, aiming for no more and no
 
 **Your agent “calls” you when something is urgent.**
 
-Maturity: **New** · Lifecycle: **Active**
+Maturity: **Testing** · Lifecycle: **Active**
 
 Guides you through setting up ntfy so your agent can get your attention on your phone, including persistent ringing on Android, only for situations you choose. Adapts to your existing notification channels and agent setup.
 
@@ -32,13 +33,16 @@ A blueprint for recurring, sourced research digests around your interests. Cover
 
 Maturity: **Varies by skill — refactor: Refined** · Lifecycle: **Active**
 
-Skills for large refactors and migrations using an architect/executor workflow: collaborative planning, delegated implementation, verification, and handoffs. Includes an autonomous version and a version with manual handoffs for more direct control.
+Skills for building and maintaining software projects using an architect/executor workflow, including collaborative planning, delegated implementation with subagents, verification, and handoffs:
+- `auto-architect-refactor`: large refactors and migrations (includes autonomous and HITL versions)
+- `auto-architect-initialize`: coming soon -- starting and defining architecture for a new project
+- `auto-architect-greenfield`: coming soon -- building and verifying new features
 
 ## Status labels
 
-**Maturity:** New — recently introduced; Testing — being tested and refined; Refined — improved through repeated use.
+**Maturity:** New — recently introduced; Testing — being tested and refined; Refined — improved through repeated use, and I think it's solid.
 
-**Lifecycle:** Active — maintained and evolving; Maintenance only — limited updates; Superseded — replaced, with an explanation and a link to what I use instead.
+**Lifecycle:** Active — I use it regularly; Maintenance only — limited updates; Superseded — replaced, with explanation of what I use instead or what built-in agent capability became common that makes it redundant.
 
 Labels reflect my experience, not a guarantee across every agent or setup.
 
