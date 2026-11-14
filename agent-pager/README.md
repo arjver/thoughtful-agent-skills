@@ -2,7 +2,7 @@
 
 Maturity: **New** · Lifecycle: **Active**
 
-**An opinionated but configurable phone pager that adapts to your agent or harness.**
+**An opinionated but configurable phone pager that adapts to your agent or harness. Basically, it rings your phone when your agent has something urgent to tell you.**
 
 Give your agent a way to get your attention when it matters. Paste in the setup instructions or install them as a skill, and your agent walks you through choosing when to page, configuring your phone, testing the alerts, and saving the policy using its own supported mechanisms.
 
